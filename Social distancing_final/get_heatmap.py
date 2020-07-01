@@ -91,7 +91,7 @@ while True:
     cursor.close()
     cnx.close()
     
-    cnx = mysql.connector.connect(user='root', password='Kumar$44',database='trends')
+    cnx = mysql.connector.connect(user='root', password='***',database='trends')
     cursor = cnx.cursor()
     
     create_heatmap_1 = (
