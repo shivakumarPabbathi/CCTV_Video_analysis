@@ -114,7 +114,7 @@ while True:
 
 ##### loading coordinates - one time run only
 '''
-cnx = mysql.connector.connect(user='root', password='Kumar$44',database='trends')
+cnx = mysql.connector.connect(user='root', password='***',database='trends')
 cursor = cnx.cursor()
 
 coord = pd.read_excel("coord.xlsx")
